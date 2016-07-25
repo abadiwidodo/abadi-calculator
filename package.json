@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".src/calculator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abadiwidodo/calculator.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test-nyan": "mocha --reporter nyan -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
