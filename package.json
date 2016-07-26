@@ -1,6 +1,6 @@
 {
   "name": "abadi-calculator",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "src/calculator.js",
   "repository": {
@@ -10,7 +10,9 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "mocha --reporter spec",
-    "test-nyan": "mocha --reporter nyan -c"
+    "test-nyan": "mocha --reporter nyan -c",
+    "release": "npm version",
+    "postrelease": "npm publish && git push --follow-tags"
   },
   "author": "Adi Widodo <adi_widodo@hotmail.com>",
   "license": "ISC",

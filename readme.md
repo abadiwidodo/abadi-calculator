@@ -28,6 +28,20 @@ Methods
 
 `divide(num1,num2)`: num1 / num2
 
+
+Release
+------------------
+Make sure your registry is default npm
+```
+npm set registry https://registry.npmjs.org/
+npm adduser
+```
+then do
+```
+npm run release [patch|minor|major]
+```
+
+
 Related Resources
 -----------------
 - http://www.journaldev.com/7599/nodejs-export-and-import-modules
