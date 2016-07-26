@@ -2,7 +2,7 @@
   "name": "abadi-calculator",
   "version": "1.0.1",
   "description": "",
-  "main": ".src/calculator.js",
+  "main": "src/calculator.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/abadiwidodo/calculator.git"
